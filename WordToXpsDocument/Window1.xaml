@@ -1,0 +1,12 @@
+﻿<Window x:Class="WordToXpsDocument.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Window1" Height="600" Width="800" Background="#FFE8F1F5">
+    <Grid>
+        <DocumentViewer Name="documentViewer1" Margin="0,42,0,0" />
+        <TextBox Height="29" HorizontalAlignment="Left" Margin="6,6,0,0" 
+                 Name="SelectedFileTextBox" VerticalAlignment="Top" Width="276" />
+        <Button Content="Browse" Height="30" HorizontalAlignment="Left" Margin="300,6,353,0" 
+                Name="BrowseButton" VerticalAlignment="Top" Width="122" Click="BrowseButton_Click" />
+    </Grid>
+</Window>
